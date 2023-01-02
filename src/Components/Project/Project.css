@@ -1,0 +1,61 @@
+.cv_preview {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cv_preview > a {
+  background-color: goldenrod;
+  color: white;
+  padding: 6px;
+  font-family: "Varela Round", sans-serif;
+}
+
+.cv_preview > a:hover {
+  background-color: black;
+  color: goldenrod;
+  padding: 6px;
+  font-family: "Varela Round", sans-serif;
+  box-shadow: 0 0 10px 0.5px goldenrod;
+}
+
+#project_card {
+  background-color: whitesmoke;
+  box-shadow: 0 0 10px 1px goldenrod;
+}
+
+#project_card > div > h5 {
+  font-family: "Varela Round", sans-serif;
+  color: goldenrod;
+  text-decoration: underline 2px goldenrod;
+}
+
+#project_card > div > p {
+  font-family: "Varela Round", sans-serif;
+}
+
+#git_btn,
+#site_btn {
+  font-family: "Varela Round", sans-serif;
+  background-color: goldenrod;
+  box-shadow: 0 0 5px 0.3px black;
+  color:white;
+  padding: 4px 6px ;
+}
+
+#git_btn:hover,
+#site_btn:hover {
+  font-family: "Varela Round", sans-serif;
+  background-color: black;
+  box-shadow: 0 0 5px 0.3px goldenrod;
+  color:goldenrod;
+}
+
+.web_link{
+  margin: 1rem;
+}
+
+#project_card:hover,
+#project_card > div > p:hover{
+  background-color: black;
+  color: white;
+}
